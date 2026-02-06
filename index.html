@@ -3,25 +3,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Statsketch - High Performance Practice Routine</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>StatSketch - High Performance Practice Routine for Digital Artists</title>
+    <meta name="description" content="Level up your art skills with StatSketch. 100+ guided exercises, gamified progress tracking, and structured practice routines for digital artists.">
+    <meta name="keywords" content="art practice, digital art, drawing exercises, art fundamentals, anatomy, perspective, color theory, gamified learning">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://1rfan11.github.io/StatSketch/">
+    <meta property="og:title" content="StatSketch - High Performance Practice Routine for Digital Artists">
+    <meta property="og:description" content="Level up your art skills with 100+ guided exercises and gamified progress tracking.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #333; }
-        h1 { color: #111; border-bottom: 2px solid #efefef; padding-bottom: 10px; }
-        .btn { display: inline-block; background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
-        footer { margin-top: 50px; font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 20px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --cyan: #00d9ff;
+            --cyan-glow: rgba(0, 217, 255, 0.3);
+            --dark-bg: #0a0e1a;
+            --card-bg: #151b2e;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a8c0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0e1a 0%, #1a1f35 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--cyan) 0%, #ffffff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .hero .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+        
+        /* Video Container */
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 217, 255, 0.2);
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+        
+        .video-container iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            display: block;
+        }
+        
+        .video-fallback {
+            background: var(--card-bg);
+            padding: 60px 40px;
+            text-align: center;
+            border: 2px solid rgba(0, 217, 255, 0.3);
+        }
+        
+        .video-fallback p {
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--cyan) 0%, #0099cc 100%);
+            color: var(--dark-bg);
+            padding: 16px 40px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px var(--cyan-glow);
+            animation: fadeInUp 0.8s ease-out 0.6s both;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px var(--cyan-glow);
+        }
+        
+        .cta-button.secondary {
+            background: transparent;
+            color: var(--cyan);
+            border: 2px solid var(--cyan);
+            box-shadow: none;
+            margin-left: 15px;
+        }
+        
+        .cta-button.secondary:hover {
+            background: rgba(0, 217, 255, 0.1);
+        }
+        
+        /* Features Section */
+        .features {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            margin-bottom: 60px;
+            color: var(--text-primary);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+        
+        .feature-card:nth-child(1) { animation-delay: 0.1s; }
+        .feature-card:nth-child(2) { animation-delay: 0.2s; }
+        .feature-card:nth-child(3) { animation-delay: 0.3s; }
+        .feature-card:nth-child(4) { animation-delay: 0.4s; }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--cyan);
+            box-shadow: 0 10px 40px rgba(0, 217, 255, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        /* Stats Section */
+        .stats {
+            text-align: center;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(0, 217, 255, 0.05);
+            border-radius: 16px;
+        }
+        
+        .stats h3 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: var(--cyan);
+        }
+        
+        .stats-grid {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--cyan);
+            display: block;
+        }
+        
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-top: 8px;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 60px 20px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 80px;
+        }
+        
+        footer p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+        
+        footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        footer a:hover {
+            color: #ffffff;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px 40px;
+            }
+            
+            .video-container iframe {
+                height: 300px;
+            }
+            
+            .cta-button.secondary {
+                margin-left: 0;
+                margin-top: 15px;
+                display: block;
+                max-width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .features {
+                margin: 60px auto;
+            }
+            
+            .stats-grid {
+                gap: 40px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Statsketch</h1>
-    <p><strong>High Performance Practice Routine for Artists.</strong></p>
-    <p>Statsketch is a desktop application designed to help digital artists improve their skills through structured, gamified practice routines.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Level Up Your Art Skills</h1>
+        <p class="tagline">High-performance practice routines for digital artists. Structured, gamified, and built to help you improve.</p>
+        
+        <!-- Video Walkthrough -->
+        <div class="video-container">
+            <!-- Embedded Google Drive Video -->
+            <iframe src="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/preview" allow="autoplay"></iframe>
+            
+            <!-- Fallback if embedding doesn't work -->
+            <!-- <div class="video-fallback">
+                <p>Watch the 30-second walkthrough:</p>
+                <a href="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/view?usp=sharing" class="cta-button secondary" target="_blank">View Demo Video</a>
+            </div> -->
+        </div>
+        
+        <a href="#" class="cta-button">Coming Soon to Lemon Squeezy</a>
+        <a href="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/view?usp=sharing" class="cta-button secondary" target="_blank">Watch Full Demo</a>
+    </section>
     
-    <h2>Get Started</h2>
-    <p>Download the latest version for Windows.</p>
-    <a href="#" class="btn">Coming Soon to Lemon Squeezy</a>
-
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Everything You Need to Improve</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">📊</span>
+                <h3>Gamified Progress Tracking</h3>
+                <p>XP system and rank progression that makes practice feel rewarding. Watch yourself level up as you build your skills.</p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🎮</span>
+                <h3>Built-In Practice Timer</h3>
+                <p>Stay focused with structured work sessions. No need for external timers—everything you need is built right in.</p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">📚</span>
+                <h3>100+ Guided Exercises</h3>
+                <p>Fun, detailed drills that teach as you draw. No guesswork—every exercise includes clear instructions and examples.</p>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🎨</span>
+                <h3>Complete Art Fundamentals</h3>
+                <p>Master anatomy, perspective, color theory, composition, and more. Everything from beginner basics to advanced techniques.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <section class="stats">
+        <h3>Built for Serious Practice</h3>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Professional Exercises</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Skill Categories</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Local & Private</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Statsketch. All rights reserved.</p>
+        <p>&copy; 2026 StatSketch. All rights reserved.</p>
         <p><a href="privacy.html">Privacy Policy</a></p>
     </footer>
 </body>
