@@ -140,6 +140,18 @@
             transform: translateY(-1px);
             box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
         }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: var(--text-primary);
+            transform: translateY(-1px);
+        }
         
         /* Features */
         .features {
@@ -237,6 +249,21 @@
             padding: 40px;
             border-radius: 12px;
             position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align content left */
+        }
+        
+        .plan-features {
+            margin-bottom: 32px;
+            flex-grow: 1; /* Pushes button to bottom */
+            width: 100%;
+        }
+        
+        /* Ensure button stays at bottom */
+        .plan .btn {
+            margin-top: auto; 
+            width: 100%; /* Making it full width looks better, but I can respect 'left' if preferred. Let's do full width to match Pro? User said 'align bottom left like pro'. Pro is full width. "Align bottom left" might mean "Starts at bottom left". If I make it full width it covers bottom left. Let's try to match Pro styles first which has inline width: 100%. */
         }
 
         .plan.pro {
@@ -266,10 +293,20 @@
             color: var(--text-secondary);
         }
 
-        .plan-features {
-            list-style: none;
-            margin-bottom: 32px;
-        }
+        /* .plan-features is now handled in previous block, removing separate rule if needed, or keeping it clean */
+        /* Actually I edited .plan-features in the previous replace_file_content but it was appended inside .plan? No, I added it after .plan. 
+           I need to make sure I didn't break the CSS structure.
+           The previous edit replaced:
+           .plan { ... }
+           with
+           .plan { ... }
+           .plan-features { ... }
+           .plan .btn { ... }
+           
+           So I should check if there is a duplicate .plan-features further down.
+           Yes, line 269 was .plan-features.
+           I should remove the old .plan-features rule to avoid confusion, or merge them.
+        */
 
         .plan-features li {
             margin-bottom: 12px;
@@ -398,11 +435,12 @@
             <!-- No Icon, just strong typography -->
             <h1 style="font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.02em;">Level Up Your Art</h1>
             <p class="tagline">The productivity tool for digital artists. Turn inconsistent practice into a daily habit.</p>
+            <!-- Video first, then Button -->
+            <div class="video-wrapper">
+                <iframe src="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/preview" allow="autoplay"></iframe>
+            </div>
             <div class="cta-group">
                 <a href="#" class="btn btn-primary">Download (Coming Soon)</a>
-            </div>
-            <div class="hero-image">
-                <img src="https://placehold.co/800x450/1e222b/white?text=App+Screenshot" alt="Art XP Dashboard Interface" class="app-preview">
             </div>
         </div>
     </header>
@@ -479,7 +517,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Fair Pricing</h2>
-                <p>Evaluation is free forever. Pay if you want to support development.</p>
+                <p>Community Edition is free forever. Pay if you want to support development.</p>
             </div>
 
             <div class="pricing-grid">
