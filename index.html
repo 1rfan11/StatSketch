@@ -191,15 +191,18 @@
             align-items: center;
             justify-content: center;
             margin: 0 auto 24px;
-            border: 1px solid var(--border);
+            margin-bottom: 24px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .card-icon {
             width: 32px;
             height: 32px;
-            stroke: var(--text-primary);
+            stroke: #d4af37; /* Gold/Orange Accent matching App */
             stroke-width: 2;
             fill: none;
+            flex-shrink: 0;
         }
         
         .card h3 {
@@ -389,97 +392,88 @@
 </head>
 <body>
     
-    <div class="hero">
-        <div class="container">
-            <h1>Level Up Your Art</h1>
-            <p class="tagline">The productivity tool for digital artists. Turn inconsistent practice into a daily habit with structured routines and visual progress tracking.</p>
-            
-            <div class="video-wrapper">
-                <iframe src="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/preview" allow="autoplay"></iframe>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <!-- No Icon, just strong typography -->
+            <h1 style="font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.02em;">Level Up Your Art</h1>
+            <p class="tagline">The productivity tool for digital artists. Turn inconsistent practice into a daily habit.</p>
+            <div class="cta-group">
+                <a href="#" class="btn btn-primary">Download (Coming Soon)</a>
             </div>
-            
-            <div class="btn-group">
-                <a href="#" class="btn btn-primary" style="opacity: 0.8; cursor: default;">Download (Coming Soon)</a>
+            <div class="hero-image">
+                <img src="https://placehold.co/800x450/1e222b/white?text=App+Screenshot" alt="Art XP Dashboard Interface" class="app-preview">
             </div>
         </div>
-    </div>
-    
+    </header>
+
+    <!-- Why Art XP? (Consolidated Grid) -->
     <section class="features">
         <div class="container">
             <div class="section-header">
-                <h2>Designed for Discipline</h2>
-                <p>Build the habit that builds the skill.</p>
+                <h2>Why Art XP?</h2>
+                <p>Designed for discipline. Built for growth.</p>
             </div>
             
             <div class="grid">
+                <!-- 1. Zero Friction -->
                 <div class="card">
                     <div class="card-icon-wrapper">
-                        <!-- Icon: Lightning -->
                         <svg class="card-icon" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Zero Friction</h3>
                     <p>Launch and draw in seconds. Bypass the decision paralysis of "what to draw" and jump straight into structured practice.</p>
                 </div>
                 
+                <!-- 2. Built for Consistency -->
                 <div class="card">
                     <div class="card-icon-wrapper">
-                        <!-- Icon: Target -->
                         <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Built for Consistency</h3>
-                    <p>Motivation fades, but systems remain. Art XP is designed to keep you on track, helping you maintain your momentum even on difficult days.</p>
+                    <p>Motivation comes and goes. Art XP gives you the structure to keep showing up, even on days when you don't feel inspired.</p>
                 </div>
                 
+                <!-- 3. Tangible Growth -->
                 <div class="card">
                     <div class="card-icon-wrapper">
-                        <!-- Icon: Trending Up -->
-                         <svg class="card-icon" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" stroke-linecap="round" stroke-linejoin="round"/><polyline points="17 6 23 6 23 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg class="card-icon" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" stroke-linecap="round" stroke-linejoin="round"/><polyline points="17 6 23 6 23 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Tangible Growth</h3>
                     <p>See your effort compound over time. Earn XP and ranks as you put in the hours, giving you a concrete record of your dedication.</p>
+                </div>
+
+                <!-- 4. Designed for Discipline (Heatmap) -->
+                <div class="card">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="16" y1="2" x2="16" y2="6" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="2" x2="8" y2="6" stroke-linecap="round" stroke-linejoin="round"/><line x1="3" y1="10" x2="21" y2="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Designed for Discipline</h3>
+                    <p>A visual history of your effort. Track your daily streaks, hit your weekly goals, and fill your milestone bars.</p>
+                </div>
+                
+                <!-- 5. Efficient Practice (Timers) -->
+                <div class="card">
+                     <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/><polyline points="12 6 12 12 16 14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Efficient Practice</h3>
+                    <p>Pomodoro-style intervals prevent creative fatigue. Staggered practice helps you maintain higher quality focus than nonstop grinding.</p>
+                </div>
+
+                <!-- 6. Local & Private -->
+                <div class="card">
+                     <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Local & Private</h3>
+                    <p>Your art belongs to you. No clouds, no servers, no subscriptions. Your data lives 100% on your machine.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Power Features -->
-    <section class="features" style="border-top: 0;"> <!-- Seamless transition -->
-        <div class="container">
-            <div class="section-header">
-                <h2>Power Features</h2>
-                <p>Everything you need to master your craft, minus the distractions.</p>
-            </div>
-            
-            <div class="grid">
-                <div class="card">
-                    <div class="card-icon-wrapper">
-                        <!-- Icon: Grid/Heatmap -->
-                        <svg class="card-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="3" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="14" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="14" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <h3>Activity Heatmap</h3>
-                    <p>Visualize your consistency. Every session fills a block on your yearly grid. Don't break the chain.</p>
-                </div>
-                
-                <div class="card">
-                     <div class="card-icon-wrapper">
-                        <!-- Icon: Shield/Lock -->
-                        <svg class="card-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <h3>Local & Private</h3>
-                    <p>Your art belongs to you. Art XP runs 100% offline and stores all your data securely on your device.</p>
-                </div>
-                
-                <div class="card">
-                     <div class="card-icon-wrapper">
-                        <!-- Icon: Pie Chart -->
-                        <svg class="card-icon" viewBox="0 0 24 24"><path d="M21.21 15.89A10 10 0 1 1 8 2.83" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 12A10 10 0 0 0 12 2v10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <h3>Session Analytics</h3>
-                    <p>Track your focus. See exactly how much time you spend on Anatomy vs. Perspective vs. Color.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="pricing">
         <div class="container">
@@ -491,15 +485,14 @@
             <div class="pricing-grid">
                 <!-- Free Tier -->
                 <div class="plan">
-                    <span class="plan-tag">Evaluation</span>
+                    <span class="plan-tag">Community Edition</span>
                     <div class="plan-price">Free <span>/ Forever</span></div>
                     <ul class="plan-features">
                         <li><span class="check">✓</span> 100+ Guided Exercises</li>
                         <li><span class="check">✓</span> Full Progress Tracking</li>
                         <li><span class="check">✓</span> Unlimited Usage Time</li>
-                        <li><span class="check">✓</span> No Credit Card Required</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary" style="width: 100%; text-align: center; box-sizing: border-box;">Download</a>
+                    <a href="#" class="btn btn-secondary">Download Now</a>
                 </div>
 
                 <!-- Pro Tier -->
@@ -508,8 +501,8 @@
                     <div class="plan-price">$TBD <span>/ Lifetime</span></div>
                     <ul class="plan-features">
                         <li><span class="check">✓</span> Everything in Free</li>
-                        <li><span class="check">✓</span> <strong>Support Development</strong></li>
-                        <li><span class="check">✓</span> Remove Support Popups</li>
+                        <li><span class="check">✓</span> Support Development</li>
+                        <li><span class="check">✓</span> Remove Popups</li>
                         <li><span class="check">✓</span> Future Pro Features</li>
                     </ul>
                     <a href="#" class="btn btn-primary" style="width: 100%; text-align: center; opacity: 0.5; cursor: not-allowed; box-sizing: border-box;">Coming Soon</a>
@@ -547,29 +540,42 @@
     <section class="features" style="border-bottom: 0;">
         <div class="container" style="max-width: 800px;">
             <div class="section-header">
-                <h2>Frequently Asked Questions</h2>
+                <h2>FAQ</h2>
             </div>
             
-            <div>
-                <details>
-                    <summary>Is the free version time-limited?</summary>
-                    <p>No. The Evaluation version is free forever. You can use it as long as you like. The Pro license (coming soon) is for those who want to support development and remove the occasional reminder popups.</p>
-                </details>
+            <details class="faq-item">
+                <summary>Is the free version time-limited?</summary>
+                <div class="faq-answer">
+                    <p>No. The Community Edition is free forever. No trials, no hidden timers.</p>
+                </div>
+            </details>
+            
+            <details class="faq-item">
+                <summary>Does it work offline?</summary>
+                <div class="faq-answer">
+                    <p>Yes. Art XP is Local-First. It requires no internet connection to function.</p>
+                </div>
+            </details>
 
-                <details>
-                    <summary>Do I need a drawing tablet?</summary>
-                    <p>It is recommended for the drawing exercises, but you can navigate the app and use the timers with a mouse and keyboard.</p>
-                </details>
+            <details class="faq-item">
+                <summary>How do updates work?</summary>
+                <div class="faq-answer">
+                    <p>The app auto-updates. New tailored exercises and features are rolled out to everyone.</p>
+                </div>
+            </details>
 
-                <details>
-                    <summary>Does it work offline?</summary>
-                    <p>Yes. Art XP is Local-First software. It works 100% offline and stores all your data on your machine.</p>
-                </details>
-                
-                <details>
-                    <summary>How do updates work?</summary>
-                    <p>The app will check for updates automatically on launch. Major updates (like new features in the Pro tier) will be optional, but bug fixes and new exercises are delivered free to everyone.</p>
-                </details>
-            </div>
+            <details class="faq-item">
+                <summary>Can I customize the exercises?</summary>
+                <div class="faq-answer">
+                    <p>Yes. You can add your own custom reference folders and configure timer durations.</p>
+                </div>
+            </details>
+            
+            <details class="faq-item">
+                <summary>Is my data private?</summary>
+                <div class="faq-answer">
+                    <p>Yes. Everything is stored locally on your device. We cannot see your stats, streaks, or artwork.</p>
+                </div>
+            </details>
         </div>
     </section>
