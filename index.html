@@ -51,6 +51,10 @@
             line-height: 1.6;
             min-height: 100vh;
             -webkit-font-smoothing: antialiased;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 40px 40px;
         }
         
         /* Typography & Layout */
@@ -137,21 +141,11 @@
             box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
         }
         
-        .btn-secondary {
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--text-primary);
-            border: 1px solid var(--border);
-        }
-        
-        .btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 255, 255, 0.2);
-        }
-        
         /* Features */
         .features {
             padding: 80px 0;
             border-top: 1px solid var(--border);
+            /* background: var(--bg-dark); */
         }
         
         .section-header {
@@ -170,23 +164,42 @@
         
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Wider cards */
             gap: 32px;
         }
         
         .card {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            padding: 32px;
-            border-radius: 12px;
+            padding: 40px 32px; /* More padding */
+            border-radius: 16px; /* Softer corners */
+            text-align: center; /* Centered layout */
+            transition: transform 0.2s ease, border-color 0.2s ease;
         }
         
+        .card:hover {
+            border-color: rgba(255,255,255,0.15);
+            transform: translateY(-2px);
+        }
+        
+        .card-icon-wrapper {
+            width: 64px;
+            height: 64px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            border: 1px solid var(--border);
+        }
+
         .card-icon {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            display: inline-block;
-            filter: grayscale(100%);
-            opacity: 0.8;
+            width: 32px;
+            height: 32px;
+            stroke: var(--text-primary);
+            stroke-width: 2;
+            fill: none;
         }
         
         .card h3 {
@@ -197,14 +210,14 @@
         .card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         /* Pricing */
         .pricing {
             padding: 80px 0;
             border-top: 1px solid var(--border);
-            background: var(--bg-card);
+            background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-dark) 100%);
         }
 
         .pricing-grid {
@@ -266,6 +279,79 @@
         .check {
             color: var(--text-primary);
         }
+        
+        /* Specs */
+        .specs-box {
+            display: flex; 
+            justify-content: space-around; /* Better spacing */
+            gap: 40px; 
+            border: 1px solid var(--border); 
+            padding: 40px; 
+            border-radius: 16px; 
+            background: var(--bg-card); 
+            flex-wrap: wrap;
+            text-align: center; /* Center specs */
+        }
+        
+        .specs-col h4 {
+            color: var(--text-primary); 
+            margin-bottom: 16px; 
+            font-size: 1.1rem;
+        }
+        
+        .specs-col ul, .specs-col p {
+            color: var(--text-secondary); 
+            font-size: 0.95rem; 
+            line-height: 1.8;
+            list-style: none;
+        }
+
+        /* FAQ */
+        details {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+        
+        details[open] {
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        summary {
+            padding: 24px;
+            font-weight: 600; 
+            cursor: pointer; 
+            color: var(--text-primary); 
+            font-size: 1.05rem;
+            list-style: none; /* Hide default triangle */
+            position: relative;
+        }
+        
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        summary::after {
+            content: '+';
+            position: absolute;
+            right: 24px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+        
+        details[open] summary::after {
+            content: '-';
+        }
+
+        details p {
+            padding: 0 24px 24px;
+            margin-top: 0;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
 
         /* Footer */
         footer {
@@ -274,6 +360,7 @@
             text-align: center;
             color: var(--text-secondary);
             font-size: 0.9rem;
+            background: var(--bg-dark);
         }
         
         .footer-links {
@@ -296,6 +383,7 @@
             .video-wrapper iframe { height: 300px; }
             .btn-group { flex-direction: column; align-items: center; }
             .btn { width: 100%; text-align: center; max-width: 300px; }
+            .specs-box { text-align: left; }
         }
     </style>
 </head>
@@ -312,7 +400,6 @@
             
             <div class="btn-group">
                 <a href="#" class="btn btn-primary" style="opacity: 0.8; cursor: default;">Download (Coming Soon)</a>
-                <a href="https://drive.google.com/file/d/1MHyYh5eU8M6Y75XY68QC7VD4JeGY2sp0/view?usp=sharing" target="_blank" class="btn btn-secondary">Watch Demo</a>
             </div>
         </div>
     </div>
@@ -326,19 +413,28 @@
             
             <div class="grid">
                 <div class="card">
-                    <span class="card-icon">⚡</span>
-                    <h3>Zero Friction Start</h3>
+                    <div class="card-icon-wrapper">
+                        <!-- Icon: Lightning -->
+                        <svg class="card-icon" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Zero Friction</h3>
                     <p>Launch and draw in seconds. Bypass the decision paralysis of "what to draw" and jump straight into structured practice.</p>
                 </div>
                 
                 <div class="card">
-                    <span class="card-icon">🎯</span>
+                    <div class="card-icon-wrapper">
+                        <!-- Icon: Target -->
+                        <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Built for Consistency</h3>
                     <p>Motivation fades, but systems remain. Art XP is designed to keep you on track, helping you maintain your momentum even on difficult days.</p>
                 </div>
                 
                 <div class="card">
-                    <span class="card-icon">📈</span>
+                    <div class="card-icon-wrapper">
+                        <!-- Icon: Trending Up -->
+                         <svg class="card-icon" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" stroke-linecap="round" stroke-linejoin="round"/><polyline points="17 6 23 6 23 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Tangible Growth</h3>
                     <p>See your effort compound over time. Earn XP and ranks as you put in the hours, giving you a concrete record of your dedication.</p>
                 </div>
@@ -347,7 +443,7 @@
     </section>
 
     <!-- Visual Progression -->
-    <section class="features" style="background: var(--bg-card);">
+    <section class="features" style="border-top: 0;"> <!-- Seamless transition from Game -->
         <div class="container">
             <div class="section-header">
                 <h2>Gamify Your Growth</h2>
@@ -355,20 +451,29 @@
             </div>
             
             <div class="grid">
-                <div class="card" style="background: var(--bg-dark);">
-                    <span class="card-icon">🔥</span>
+                <div class="card">
+                    <div class="card-icon-wrapper">
+                        <!-- Icon: Grid/Heatmap -->
+                        <svg class="card-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="3" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="14" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="14" width="7" height="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Activity Heatmap</h3>
                     <p>Visualize your consistency. Every session fills a block on your yearly grid. Don't break the chain.</p>
                 </div>
                 
-                <div class="card" style="background: var(--bg-dark);">
-                    <span class="card-icon">🆙</span>
+                <div class="card">
+                     <div class="card-icon-wrapper">
+                        <!-- Icon: Award/Star -->
+                        <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>XP & Levels</h3>
                     <p>Earn XP for every minute you practice. Watch your rank grow from Novice to Master as you put in the hours.</p>
                 </div>
                 
-                <div class="card" style="background: var(--bg-dark);">
-                    <span class="card-icon">📊</span>
+                <div class="card">
+                     <div class="card-icon-wrapper">
+                        <!-- Icon: Pie Chart -->
+                        <svg class="card-icon" viewBox="0 0 24 24"><path d="M21.21 15.89A10 10 0 1 1 8 2.83" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 12A10 10 0 0 0 12 2v10z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Session Analytics</h3>
                     <p>Track your focus. See exactly how much time you spend on Anatomy vs. Perspective vs. Color.</p>
                 </div>
@@ -421,61 +526,50 @@
                 <p>Native performance. Runs on almost anything.</p>
             </div>
             
-            <div style="display: flex; justify-content: space-between; gap: 20px; border: 1px solid var(--border); padding: 32px; border-radius: 12px; background: var(--bg-card); flex-wrap: wrap;">
-                <div style="flex: 1; min-width: 200px;">
-                    <h4 style="color: var(--text-primary); margin-bottom: 12px; font-size: 1.1rem;">Windows</h4>
-                    <ul style="list-style: none; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+            <div class="specs-box">
+                <div class="specs-col">
+                    <h4>Windows</h4>
+                    <ul>
                         <li>Windows 10 or 11 (64-bit)</li>
                         <li>4GB RAM</li>
                         <li>DirectX 10 capable GPU</li>
                     </ul>
                 </div>
-                <div style="flex: 1; min-width: 200px;">
-                    <h4 style="color: var(--text-primary); margin-bottom: 12px; font-size: 1.1rem;">macOS / Linux</h4>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Coming Soon</p>
-                </div>
-                <div style="flex: 1; min-width: 200px;">
-                     <h4 style="color: var(--text-primary); margin-bottom: 12px; font-size: 1.1rem;">Input</h4>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Mouse or Drawing Tablet</p>
+                <div class="specs-col">
+                    <h4>macOS / Linux</h4>
+                    <p>Coming Soon</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ -->
-    <section class="features" style="background: var(--bg-card); border-bottom: 0;">
+    <section class="features" style="border-bottom: 0;">
         <div class="container" style="max-width: 800px;">
             <div class="section-header">
                 <h2>Frequently Asked Questions</h2>
             </div>
             
-            <div style="text-align: left;">
-                <details style="margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 24px;">
-                    <summary style="font-weight: 600; cursor: pointer; color: var(--text-primary); font-size: 1.1rem;">Is the free version time-limited?</summary>
-                    <p style="margin-top: 12px; color: var(--text-secondary);">No. The Evaluation version is free forever. You can use it as long as you like. The Pro license (coming soon) is for those who want to support development and remove the occasional reminder popups.</p>
+            <div>
+                <details>
+                    <summary>Is the free version time-limited?</summary>
+                    <p>No. The Evaluation version is free forever. You can use it as long as you like. The Pro license (coming soon) is for those who want to support development and remove the occasional reminder popups.</p>
                 </details>
 
-                <details style="margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 24px;">
-                    <summary style="font-weight: 600; cursor: pointer; color: var(--text-primary); font-size: 1.1rem;">Do I need a drawing tablet?</summary>
-                    <p style="margin-top: 12px; color: var(--text-secondary);">It is recommended for the drawing exercises, but you can navigate the app and use the timers with a mouse and keyboard.</p>
+                <details>
+                    <summary>Do I need a drawing tablet?</summary>
+                    <p>It is recommended for the drawing exercises, but you can navigate the app and use the timers with a mouse and keyboard.</p>
                 </details>
 
-                <details style="padding-bottom: 24px;">
-                    <summary style="font-weight: 600; cursor: pointer; color: var(--text-primary); font-size: 1.1rem;">Does it work offline?</summary>
-                    <p style="margin-top: 12px; color: var(--text-secondary);">Yes. Art XP is Local-First software. It works 100% offline and stores all your data on your machine.</p>
+                <details>
+                    <summary>Does it work offline?</summary>
+                    <p>Yes. Art XP is Local-First software. It works 100% offline and stores all your data on your machine.</p>
+                </details>
+                
+                <details>
+                    <summary>How do updates work?</summary>
+                    <p>The app will check for updates automatically on launch. Major updates (like new features in the Pro tier) will be optional, but bug fixes and new exercises are delivered free to everyone.</p>
                 </details>
             </div>
         </div>
     </section>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Fanworks. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="mailto:irfanmore@gmail.com">Contact Support</a>
-                <a href="privacy.html">Privacy</a>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
