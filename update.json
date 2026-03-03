@@ -1,0 +1,11 @@
+{
+  "version": "0.1.1",
+  "notes": "Initial Beta Release - Testing Auto-Updater",
+  "pub_date": "2024-03-04T00:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBHT012T3Y3U3d1UXp3c2NNeXBpakhhSDJFbXIwMGNaL3RtS0JNeVNDTnFLQitsTUhlOUh4VkUxVzE1VkRMZUV3OWR2Ykg4ZXdvTUFhWmpHVC9Rc1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyNTYzMTI2CWZpbGU6U3RhdFNrZXRjaF8wLjEuMV94NjQtc2V0dXAuZXhlCmsrNWxjajJ6T0hFQi9XZDB1YmpTbGZjVzM3MTFmemRmYmJ1clhHNlBuTG9ZSUQ4d3JWK1g0TFFUTmx4aVc4dTBLZHJPZFdRQzRUcWJibUMrSHpRT0NRPT0K",
+      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.1/StatSketch_0.1.1_x64-setup.exe"
+    }
+  }
+}
