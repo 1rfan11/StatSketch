@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
-  "notes": "Initial Beta Release - Testing Auto-Updater",
-  "pub_date": "2024-03-04T00:00:00Z",
+  "version": "0.1.2",
+  "notes": "About page redesign, Terms & Privacy, sound normalization, native app lockdown",
+  "pub_date": "2026-03-06T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBHT012T3Y3U3d1UXp3c2NNeXBpakhhSDJFbXIwMGNaL3RtS0JNeVNDTnFLQitsTUhlOUh4VkUxVzE1VkRMZUV3OWR2Ykg4ZXdvTUFhWmpHVC9Rc1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyNTYzMTI2CWZpbGU6U3RhdFNrZXRjaF8wLjEuMV94NjQtc2V0dXAuZXhlCmsrNWxjajJ6T0hFQi9XZDB1YmpTbGZjVzM3MTFmemRmYmJ1clhHNlBuTG9ZSUQ4d3JWK1g0TFFUTmx4aVc4dTBLZHJPZFdRQzRUcWJibUMrSHpRT0NRPT0K",
-      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.1/StatSketch_0.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmhoTlUvQkJpSWxKTzZkYW5ncS9nZ1hucXZuTmpadEFXWW1pazhudnNSdWhPRU03ZWdSTFpwQ00yUE5zV3lKcmw5VExKNEdyVVFFMTlqRndoMDNaU0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyNjA0MzMwCWZpbGU6U3RhdFNrZXRjaF8wLjEuMl94NjQtc2V0dXAuZXhlCkEzQTUrYlZhZG9GUWFGb05keHFlZ2ZpSkQ5SFdJalBLYWQ4MzJCajdGMDRBbk42RTFPazJIWDJKdlJKdzl0bHlJc3BHM3l3amU3cVlHMm1xVHNHZUFRPT0K",
+      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.2/StatSketch_0.1.2_x64-setup.exe"
     }
   }
 }
