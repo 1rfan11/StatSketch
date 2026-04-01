@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "notes": "About page redesign, Terms & Privacy, sound normalization, native app lockdown",
   "pub_date": "2026-03-06T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnNJMG00dll2MGFxNXdFQTVHM0dLcEcwL1BYa1F0NGVVN1RrdkIvZWgycHNtZlZLMS9oMGZHQk5Xa2N5YlZIOVh1TElBbXpyRWttTEgzVjJJblY0THd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODQ2NDYzCWZpbGU6U3RhdFNrZXRjaF8wLjEuNV94NjQtc2V0dXAuZXhlCkZjd0ZRV1BxT0cyUElXb1MvWVFyaTRxMzB2NlM0NGRzSkpIdGRHbTJTbXhuUjhzSUs4cHVQRVFwL1pGR21pWHJIUHVxQjhvRmdpL1dyY3hjb3ZlMUN3PT0K",
-      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.5/StatSketch_0.1.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmhsdENaN3BQSERRRUtJNFk4ZVZ5ZEp6UVRIa1BNSnptSEZnSVBiOUxJb3FXTHFPUGlFS2c4cEd1UHUydkxFY1BuRkJUVGJOOUljZUlONXVmRlNHMEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDI3ODI1CWZpbGU6U3RhdFNrZXRjaF8wLjEuNl94NjQtc2V0dXAuZXhlCkxmTjNMNGhDb0hwN3U1cGdvOGZCTzdzb0xxQjJWVjZwV0xJV3A0NTN4YnJNL3MxeEM5cWd3SHNWSm52SytPV1FSWURHUTc3Zm1QZUpza1oxYmtZdkNnPT0K",
+      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.6/StatSketch_0.1.6_x64-setup.exe"
     }
   }
 }
