@@ -1,11 +1,11 @@
 {
-  "version": "0.1.9",
-  "notes": "Auto-updater test release. Exercise database cleanup and fixes.",
+  "version": "0.1.8",
+  "notes": "Exercise database cleanup: removed redundant and placeholder exercises, fixed dead tags, completed exercise groups.",
   "pub_date": "2026-08-22T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnVBWW1TUkVjblo2RlpnUTV4eWc4OFA2VTJESWxnZ21YK1pJMnpoL2NKOExMYWw1VU5CUFh4VW9sVFBYclZyRGR0NTJXbnJ3dzR3QURXVmE2eFNuTFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MzYzMjk0CWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCkVhcXVFVW03KzBCSEwyUXBvVy9ZWEpPMVlteEFaRjJiUC96UVgvUjh4VU8za01aa3BqeldSQ2lPYnhFMkhTZjd4M0dOdXVhd0ZZc1krYjFlWERxN0J3PT0K",
-      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rm5HTGNIODlUQ2NwT0UxS0IvbkZHUjFzdm53US9TWFZyQ25sZWU1NUZKSU05aUJjTVoxeGFaS0FrdVhDQjB5eHVTUWNmUVFmYlU0a212WVRvcVdWK2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MzYyMTA0CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCkJrR2ZZU0ZhazVjTjBVVDBYV3I1MzIvdXhtbFo2VkljOTVUeW5wWm5qWTE5cWk3MkdrN3dXWTVXY2FzUWMyKzZsVkQ4NUlRbnRualkxQUVUOGhYQ0RRPT0K",
+      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
     }
   }
 }
