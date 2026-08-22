@@ -4,7 +4,7 @@
     "pub_date":  "2026-08-22T00:00:00Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBoMW9IeWQxTGwyYVpWUnlVSjNDVysrclBCR3EyNU5nRjZGUjF4eGM1a3JoMWYwVzAyU2FlRmE0UjZ6OFNDc3lCUUhvS3NxWjdFeVkwSzRaTXUrbHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MzcyMjU4CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCnM2S21kQ3owVnVjTVROUDVweDhLQnRnKzdvTEhhb0xsZE84SkdGTVNrM09LbjE2WkhCZjY4cmMxMGVJcXEyU2hsd2pZQjZhZUExUWMydUhBV3J5b0JBPT0K",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnROdnBwdTNBNXBiZTZIY3NZQ2VBZExqazhRWGlBN3I1bmJRNGhQOVpUQjd5RUhHRk8zVVlDclRMRElSREJYMjh3dGZ1Qjd0YVlyLzdONDgraVRmSVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MzcyOTcxCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCmV1NGJhZUZzdDFiY0F3M290WWZGeFYzbHZkQnF4K3JGUm91RUdBd3d0MkQzQnpsNjA4bXNwbi9lYmR2L2FjMWNzTzhhUW83bnkycGIyZlJMQ2EraURnPT0K",
                                              "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                          }
                   }
