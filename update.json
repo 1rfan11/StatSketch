@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
-  "notes": "Auto-updater test release. Exercise database cleanup and fixes.",
-  "pub_date": "2026-08-22T00:00:00Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmlzKzNRZHRZc1h2VGcxN24yZDFFRDhYVWFUdjB1a3dUZmMyRFFGNGdlQWRxa2pCMmdsZTBQMmNubDR1b0pYQlNlaXo0elRTbVJ5cHNwenREaGQwZkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3Mzc0MTg4CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCjN2NVRpMVlIOVNUOE55TXNpN2NRcyt4MFA3Yjc2ZWpab3VWaHdqTjQ2V2syem1VNTBaUWxKSXA0SnVJL2lIWDVVR05SbnhuWkN3aHJqQ1ZrL05PTER3PT0K",
-      "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
-    }
-  }
+    "version":  "0.1.8",
+    "notes":  "Auto-updater test release. Exercise database cleanup and fixes.",
+    "pub_date":  "2026-08-22T00:00:00Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBaMFA1NmxZMlpTaHE5c2ZLRlhTekw0dWVwbHVmL29qZ2ZQUXp4cGYyTVNjSitFN24ydkZUTU0yUDZZS2FPc2JhWmtDaUdEcERzYUFuZGtuK2R1c0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3Mzc0Njc1CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCmxHRUpOY254MWxGdnN0cTRJSXhhVGFjN1dPZWl1dU5YSHh2Z1NHL0ZKV1V4bVY2ZEgyanZ4UUxSVHlocjRObTNnSE9MRUlZN3p4S25BdjN2clpSckNBPT0K",
+                                             "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
+                                         }
+                  }
 }
