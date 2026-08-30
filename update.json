@@ -1,11 +1,11 @@
 {
     "version":  "0.1.8",
     "notes":  "Exercise database update: reworked Exercise 7 (Selective Detailing) and refreshed Exercise 5 detailing step.",
-    "pub_date":  "2026-08-30T09:00:00Z",
+    "pub_date":  "2026-08-30T12:14:49Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmdXU3FoZTRUU0tGMkFXR3ZXa0ZOS0Vpd0M1Qld4VXoxRk80VWNrWTZlKzAzTjd3Sk5VN0NPMWZjOU9QOGdxQUV6eEVqR2RtODNBZE5WZzdXMVJDQWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDUxNjE3CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCko0U1E0V3VPUlhMTEplakpBYkdVKzQvVWpZdnZHTHA3TUdpUGVjREhpdFJnaWRnckFUSHBZS055QnNTTnN2THZXRU43RjVlZ3NIMXpKYkY5RUdxREJ3PT0K",
-                                             "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
-                                         }
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmxwWXRuWkFxem5KanRNT0ZKQTlUMVpITFZBVXQya25YWFN4RFlTS21lRTFSb0dpcXFoalQ5d05iR3BqZDJxN3BYSFBIUzhKaHlZQ2hMWUhWRUlVZHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDYzMTgyCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCjdQL0o2c1BVaGQrRE80eWVZS2MyZ0srLzNPYXJZdDRCYjlXYmFWUk9jdjFibmJkSGsxeWc3VEVodWVDL0MvNXNGQndaMTV3Y0xWclBRTXlxR0l1MENRPT0K",
+                                              "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
+                                          }
                   }
 }
