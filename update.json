@@ -1,10 +1,10 @@
 {
     "version":  "0.1.8",
-    "notes":  "Exercise database update: reworked Exercise 7 (Selective Detailing) and refreshed Exercise 5 detailing step.",
-    "pub_date":  "2026-08-30T12:14:49Z",
+    "notes":  "Tightened the practice exercise auto-linker so it only skips indirect/explanatory text and color-naming cases.",
+    "pub_date":  "2026-09-01T10:44:50Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmxwWXRuWkFxem5KanRNT0ZKQTlUMVpITFZBVXQya25YWFN4RFlTS21lRTFSb0dpcXFoalQ5d05iR3BqZDJxN3BYSFBIUzhKaHlZQ2hMWUhWRUlVZHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDYzMTgyCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCjdQL0o2c1BVaGQrRE80eWVZS2MyZ0srLzNPYXJZdDRCYjlXYmFWUk9jdjFibmJkSGsxeWc3VEVodWVDL0MvNXNGQndaMTV3Y0xWclBRTXlxR0l1MENRPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnN0N1FQZEMza2N3KzdTbHFIYVR5ZWN1dFBXT0d4cEZ0SndOREF5MDdYWmIwVWd4QjZISm5yYlAwbmhpYlZ4TEVlanYrNmZnUFBLR1NVUDBhck9TS1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjU5NDUzCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCmFaeWtUSXRQRkxXT2VDblRGTmkyN1FxRWFpejVZWTlMZktGOHRiNENWcVdVNXJEQkFCanl6bVNrUk1MREpQVUFsTllkRUhERWpaOUErYWptUHJvK0JRPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                           }
                   }
