@@ -1,10 +1,10 @@
 {
     "version":  "0.1.8",
-    "notes":  "Tightened the practice exercise auto-linker so it only skips indirect/explanatory text and color-naming cases.",
-    "pub_date":  "2026-09-01T10:44:50Z",
+    "notes":  "Strengthened the practice exercise auto-linker: skip prose (for example, em-dashes, !?, internal periods), trim trailing periods, only link short comma lists (<=5 words <45 chars), and treat 'for example' as non-linkable.",
+    "pub_date":  "2026-10-03T10:13:11Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnN0N1FQZEMza2N3KzdTbHFIYVR5ZWN1dFBXT0d4cEZ0SndOREF5MDdYWmIwVWd4QjZISm5yYlAwbmhpYlZ4TEVlanYrNmZnUFBLR1NVUDBhck9TS1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjU5NDUzCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCmFaeWtUSXRQRkxXT2VDblRGTmkyN1FxRWFpejVZWTlMZktGOHRiNENWcVdVNXJEQkFCanl6bVNrUk1MREpQVUFsTllkRUhERWpaOUErYWptUHJvK0JRPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmljSTNtK2M3MG5GOTRMUk1nejkyd0J3dzNyNktmcFVGYjdKb2hrb0drL25PQ1MrT3FWMU1TT1h2UmIvRW4yTTRnOFJFVStBQ3p5NmQzWDk5NjU1cndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDIyMzQ3CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCkRoZWN6TU5ORXlscStkMU5GQW9BN0w4UlFCL0tBVFBtN3VuV1Fuejh4NVVMTlZyVDYzWE1WZmFNTlFON1B2alhlSkdIYk1kVGFFTkE5QkxGcHRDOEJ3PT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                           }
                   }
