@@ -1,10 +1,10 @@
 {
     "version":  "0.1.8",
-    "notes":  "Strengthened the practice exercise auto-linker: skip prose (for example, em-dashes, !?, internal periods), trim trailing periods, only link short comma lists (<=5 words <45 chars), and treat 'for example' as non-linkable.",
-    "pub_date":  "2026-10-03T10:13:11Z",
+    "notes":  "Overhauled Focus Insights: RECOMMENDED FOCUS now shows a 30-minute rolling progress bar and avoids demoting the target after you practice it; added SECONDARY FOCUS for multi-pillar drills. Improved alignment with exercise tag logic and sidebar layout.",
+    "pub_date":  "2026-10-03T11:52:46Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmljSTNtK2M3MG5GOTRMUk1nejkyd0J3dzNyNktmcFVGYjdKb2hrb0drL25PQ1MrT3FWMU1TT1h2UmIvRW4yTTRnOFJFVStBQ3p5NmQzWDk5NjU1cndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDIyMzQ3CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCkRoZWN6TU5ORXlscStkMU5GQW9BN0w4UlFCL0tBVFBtN3VuV1Fuejh4NVVMTlZyVDYzWE1WZmFNTlFON1B2alhlSkdIYk1kVGFFTkE5QkxGcHRDOEJ3PT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rmc0SVRZU3JzTnZpcitqNXcwclFWNUQ5aHlodXhvN0tHSDdDdTMvbkxldTU4a1VLWTAyc0VTMkplZFVnemVLZFNFYWZ5T3ZtWUZZbHM0enRYT3lvUUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDI4MzQyCWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlClUyUUNZamxscmNUSWM1Rk1lbkhhYWkzT0R6am11b0ZIRkprQTZCaG9STTJqR1gyZ2pWQS9aOVpCRW1YY2pzN0JDWUJid0JrN3dhZmFlVzhMMDRCZURnPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                           }
                   }
