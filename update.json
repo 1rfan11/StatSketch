@@ -1,10 +1,10 @@
 {
     "version":  "0.1.8",
-    "notes":  "Clarified the Thumbnails exercise: the description now frames it as making a handful of quick rough thumbnails then picking the best composition, with tightened mistake wording.",
-    "pub_date":  "2026-10-17T14:34:14Z",
+    "notes":  "Content pass across exercises for tighter, clearer step wording (Notan, Selective Detailing, Loomis, 1-Point Perspective, Fabric & Drapery, Thumbnails), plus a fix so reference lists in the practice view link correctly again.",
+    "pub_date":  "2026-10-17T16:59:26Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnVPbEUzYWx5OVZNSGRFY0JGU1F0TFRQblJyUTA4Wm9kNzdMMDdTazQzazNNQ2V2QlJxOXNyeGpnWDRweGZ0d1VWUml2WmgvU0xyZ3NBQVIvaUt4c0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ3NjI0CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCnpCbEtqZGpNNmtFTmYrVWc3cWpUY3orU3RKTDRqaEREWWU3bGlwV3ZXN2ZmcDRKZmhtZTNKKzJSTVdpb2JSV2ZlV0JtbExrMWM1a2g1d3M2TUFMaURRPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rm1BN1dPdHh0Z2o0dUpTNlYwSUp5a3R4bE9QSjR3QzVXaDFLN2gzMFBtU3RtUlhyYkhVcXBERjdyWGRQdmZTajlRaHR4blNDT0xVODkxT3lBYTZkeUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjU2MzM5CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCkdmbG1DQ0orRVJlNmdTMk1mWVplaTcrTE14SHBLdzVEdE92UDIzT3VXcWFOdWFBUmJ6UVBUSVBvL2VHd28xRHZUUFlWUjMvZVhFRlBpYXpnMmFYSUJnPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                           }
                   }
