@@ -1,10 +1,10 @@
 {
     "version":  "0.1.8",
-    "notes":  "Refined the Notan and Thumbnails exercises: clearer context and step wording, corrected mistake phrasing, and updated the thumbnail drill to 2-3 minutes per thumbnail with a focus on silhouette and two gray shades.",
-    "pub_date":  "2026-10-17T13:19:09Z",
+    "notes":  "Clarified the Thumbnails exercise: the description now frames it as making a handful of quick rough thumbnails then picking the best composition, with tightened mistake wording.",
+    "pub_date":  "2026-10-17T14:34:14Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBlZmR6Vy83QXFCdUdmK3l5Nm5ycnVpWHgzR2FOSWkzdkhaZTVGdWlSSEw1MHdyMGRmYll4MENvcEU3U2ZLZEtaL1pMMDJJdlk4RUI3MUJHbkFjOVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQzMDk3CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlClpEeE9ucEc1WEY2VklMTDcrOW9vWWxKTWxXOTFHd3VMeFVuV1h3WXBWZW9nZjNNWDJpallzN3NDOU1ucVI1L1AwNCtLelVMK1pIa1lQRlBFVjY0S0NnPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnVPbEUzYWx5OVZNSGRFY0JGU1F0TFRQblJyUTA4Wm9kNzdMMDdTazQzazNNQ2V2QlJxOXNyeGpnWDRweGZ0d1VWUml2WmgvU0xyZ3NBQVIvaUt4c0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQ3NjI0CWZpbGU6U3RhdFNrZXRjaF8wLjEuOF94NjQtc2V0dXAuZXhlCnpCbEtqZGpNNmtFTmYrVWc3cWpUY3orU3RKTDRqaEREWWU3bGlwV3ZXN2ZmcDRKZmhtZTNKKzJSTVdpb2JSV2ZlV0JtbExrMWM1a2g1d3M2TUFMaURRPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.8/StatSketch_0.1.8_x64-setup.exe"
                                           }
                   }
