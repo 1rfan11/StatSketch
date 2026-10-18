@@ -1,10 +1,10 @@
 {
     "version":  "0.1.9",
-    "notes":  "Version 0.1.9. Exercise content pass (Color Fundamentals, Value, Form, Selective Detailing, 1-Point Perspective, Fabric & Drapery, Thumbnails, 2-Point Perspective, Gesture), unified 'Reference Selection' lead-ins, an auto-linker fix so reference lists link correctly, and study timer UI polish (larger display, collapsible settings with gear toggle, section dividers, spacing tweaks).",
-    "pub_date":  "2026-10-18T04:54:06Z",
+    "notes":  "Version 0.1.9. Exercise content pass (Color Fundamentals, Value, Form, Selective Detailing, 1-Point Perspective, Fabric & Drapery, Thumbnails, 2-Point Perspective, Gesture), unified 'Reference Selection' lead-ins, an auto-linker fix so reference lists link correctly, and study timer UI polish (larger display, smooth collapsible settings with gear toggle, section dividers, spacing tweaks).",
+    "pub_date":  "2026-10-18T05:08:30Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rm1IdlZDQVBrSE1nSXdPZjBjZEc2N0I5UCtMNUo5aFU0cm5wQUlwcEMrNVZFRmtnVEhuK3Q0dFBDeFFmS25yOUNyL3puWmlGNk9XK3NGUUFmVjduSEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjk5MjM3CWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCllmNjg5WjRRRVZCVk1uNUxyS3lCblVvTldOeWpXVGdhb29hV2tXd3F3amhhbGRteVNmYmtwdTNBdlVBMkNQQ3dGMmltUHQ0SE1TWkhsODMxdjJvc0J3PT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rm05OTlYQmU5UGJleW5QSGpRY1VyQWI0bmRmdVNqVElSMndZdHE2WWN2RkxMbDR6OWhWWWZhVE51clllaHg4YkZJSUtaa1hiOVdtMzlXcXROSGF2UEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzAwMTAwCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlClFvNE8zV2RUeUFPMU1MQXpKclVmQit6V3I4clhScEt3WEYvS3pSZ21PaUtxUUt6MUFEbXJqbDNSWlJMV2ZLYnB6bGFvUGFMQjRKZTVIVHhVTFN4WkJnPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
                                           }
                   }
