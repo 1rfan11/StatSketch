@@ -1,10 +1,10 @@
 {
     "version":  "0.1.9",
-    "notes":  "Version bump to 0.1.9. Includes the exercise content pass (Color Fundamentals, Value, Form, Selective Detailing, 1-Point Perspective, Fabric & Drapery, Thumbnails, 2-Point Perspective, Gesture), unified 'Reference Selection' lead-ins, and the auto-linker fix so reference lists link correctly.",
-    "pub_date":  "2026-10-18T00:58:50Z",
+    "notes":  "Version 0.1.9. Exercise content pass (Color Fundamentals, Value, Form, Selective Detailing, 1-Point Perspective, Fabric & Drapery, Thumbnails, 2-Point Perspective, Gesture), unified 'Reference Selection' lead-ins, an auto-linker fix so reference lists link correctly, and tightened session indicator spacing in the study timer.",
+    "pub_date":  "2026-10-18T04:13:44Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmhqTzFNalZpd0ZmRzhkejJtckZQeUxNbU9MNHZSK2tyZ2R2K1k1eU5PbWVlbFFHcCsvTjN0OTR2WE5FZkJKSHNGc3lWWDc0OVVRWEZpQW9pdlFJY0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjg1MTIzCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCnZLWE8wY0lRRWI0UEJjdnM0YTMwYnpPT216b1h3dmZITllyNzg2cFNNeWxpYzBWZDJySFc4eVA0bUczeXIrd3hLNDhvSEJ1dmVya1BqZDVVZDNnZkNRPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnBieStraXdySzdhOThmTlYwTU1XWHA5RVA0ME1KNTVNck9QcjBlUUlsWnFmMjFPcnkwWHFaNHZvcjZuZE5uTEIxWHZtZWFham42WHRVNGMyMktuRFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjk2ODE2CWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCi9xc2VLeDBzVmZOM21hT2ZJdTdLa2pVUDkwSjlzTTJKdFloTjl3S21jWFVqaHdrV09mOW8yNnkvVG4rc2JPRmlta0t0bkV1QkJoeXIxTS82VDRod0R3PT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
                                           }
                   }
