@@ -1,10 +1,10 @@
 {
     "version":  "0.1.9",
-    "notes":  "Version 0.1.9. Performance patch: eliminated constant idle jank by gating the level-up modal animations to only run while visible and making the cursor-glow and streak-shield effect loops idle-aware, plus fixed a startup error that could skip initial UI refresh. Includes the earlier UI polish: Notes pagination, aligned scroll fades, consistent 8px spacing, evenly balanced timer session-indicator spacing, restyled preset/gear/pager controls, refined disabled timer-button styling, and a subtler click-shrink effect.",
-    "pub_date":  "2026-10-19T16:43:00Z",
+    "notes":  "Version 0.1.9. Performance patch: eliminated constant idle jank by gating the level-up modal animations to only run while visible and making the cursor-glow and streak-shield effect loops idle-aware, plus fixed a startup error that could skip initial UI refresh. Includes the earlier UI polish: Notes pagination, aligned scroll fades, consistent 8px spacing, balanced 16px spacing around the timer session indicator, restyled preset/gear/pager controls, refined disabled timer-button styling, and a subtler click-shrink effect.",
+    "pub_date":  "2026-10-19T19:47:00Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnZoUTREeWFKeDJWd1U4L2NkdzJGNmR2V2FNd1NzMWROT1F6bHBvQ2owMEVZZW5QTDYrTHpzT1NScWVvMnR2Z0hZcTlPWGU3VlFETjd2V2NTSnF2dWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDIxODIxCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCk40WTBMdVFFcXc1WXR6MVZ1QkNQN09zdjZaSUd4cnVuSmZSMzRxT1lCS2F6aWprMVdTekJWZ3Q5RWtHZ0d1eDJqNWxDSDNzSmZhUXVycWFySU9hSURBPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RmxtUjM1cjlXMEIvTEluUGQwMEExS0VBNkxsNzg5MGoxSmRpTmZ2d2FtK1VFTkNkVm9LUWFWUFQwY0l0NFJWVW5GeE9nbm16TXFDV2s5Qi91Q3Y3R2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDUxMjIyCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlClg4KzZkMFR6VHFuc3dlNVc2MmtXei9iZEd6akpLNlpGZVBYeHI3a2cvRGRRVWhwMTQzcWRra0VRUEtBNWx3c0lGUjhtcWdaTFZmWjBESUk3Wlc1bkNBPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
                                           }
                   }
