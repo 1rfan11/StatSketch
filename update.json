@@ -1,10 +1,10 @@
 {
     "version":  "0.1.9",
-    "notes":  "Version 0.1.9. UI polish patch: Notes pagination, aligned tracker and exercise scroll fades, consistent 8px spacing across the tracker and timer cards, restyled preset, gear, and pager controls, refined disabled timer-button styling, and a subtler global click-shrink effect.",
-    "pub_date":  "2026-10-19T14:02:58Z",
+    "notes":  "Version 0.1.9. UI polish patch: Notes pagination, aligned tracker and exercise scroll fades, consistent 8px spacing across the tracker and timer cards, evenly balanced spacing around the timer's session indicator, restyled preset, gear, and pager controls, refined disabled timer-button styling, and a subtler global click-shrink effect.",
+    "pub_date":  "2026-10-19T15:33:00Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4Rmh1d2JxVGorWS9uengxcy9SbUtKVWxqRWZYbFdlVUFhRjNkVXowMnVxYnVNTlhkUlBjN2JqUk1DQUE0bFVsT09GOW9UZjYwZUxEeFNZWGhSeDE5WndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE4NTIyCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCmtyS2pXbkZJK3JlNFdhd2RvQjZSWlNaNHZLcnpnN1FnTmR5Y0UxNXVFWGczLy9veUxvTEp1UFNCSHhqTUYzWk9RK2swTTRJOFFHb25IMXdhV0xrbUNnPT0K",
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnFJQjlsQlMwZVp2b1VSMHFCVlhoZW9zaHVlT2xId0RqRkZIMXpNZGxwREVwSGIzWlhDaDRLNmNLZjBHdmJHd1NYaFRoeHVhdEZvSDFNOE03N0lBbWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE5ODY5CWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlClhtNXdMMnRUS2pMZW92OUx1REhOd2EzdS9VMVhGdmhiUExNV290eUhnOXA5d3RRWERCRTZlc3RJbW44UWlYWXh5N05udzR2MkVoZ2kxT0RxNEQ1bEJnPT0K",
                                               "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
                                           }
                   }
