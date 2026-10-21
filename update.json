@@ -1,11 +1,11 @@
 {
-    "version":  "0.1.9",
-    "notes":  "Version 0.1.9. Random Exercise now respects the active category (Progression, Favorites, Custom, or any pillar) instead of always resetting to Progression. Content patch: adds a set of perspective exercise ideas (ellipses and cylinders, cast shadows, reflections, boxes from imagination, foreshortened figure, measuring points, two-point interiors, atmospheric depth, fisheye panorama, and sun shadows) and removes the outdated basic-shapes tag from the Values & Contrast exercise. Also includes the earlier fixes: eliminated constant idle jank by gating the level-up modal animations to only run while visible and making the cursor-glow and streak-shield effect loops idle-aware, plus fixed a startup error that could skip initial UI refresh; fixes the timer preset buttons' lower hit area (timer display overlapped them) and removes their inconsistent hover border. Includes the earlier UI polish: Notes pagination, aligned scroll fades, consistent 8px spacing, balanced 16px spacing around the timer session indicator, restyled preset/gear/pager controls, refined disabled timer-button styling, and a subtler click-shrink effect.",
-    "pub_date":  "2026-10-20T14:16:42Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnJKNlgzNExPcFhTNkhTQjFyc2JQaldlNXZnS2V5V002R2doQmErbDNHNmN6YktiWG9Jd1R1RSs3TXlMdHlianllc3dpTUg4NDNKTTFlSnFJalMvWnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTA1NzQ0CWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCklUZnF2eUxMZUZ1TDgra240eWMwZXh2cnh0aGxLTkJnZFdRU2RaUlUzUCtwT3lwcGlLalVSU1NEY0FXNFA4dW9Gb3BtYldMQWcwRGI2UUV4c3RzbkNBPT0K",
-                                              "url":  "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
-                                          }
-                  }
+    "version": "0.1.9",
+    "notes": "Version 0.1.9 content patch: archived 19 overlapping or off-scope exercises into the disabled list and filtered them out of the active database. Retired duplicates such as Detailed Armor Construction and Protective Gear & Armour, plus creature, facial, age, semiotics, fragmentation, scientific illustration, Bargue, and future idea notes, so the active curriculum stays focused. Exercise IDs remain stable, so saved progress is unaffected.",
+    "pub_date": "2026-10-21T00:12:53Z",
+    "platforms": {
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnUwN0FiNGQ5RHlBc1QzUVMzQmZYL2F0a0c4dm9iQ3JTM29SbVhSY0lzL3RUaTJ3YXRobXI0NUVGZk8zQk9SeTY0YmRwNDZBajV6VjlPVTI1VHBJMVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQxNTUxCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCmVmTFJlTnhoQ05EQlJqOXB3aWRzQjQ1L3RnMzlHaHB4WlRzUHpXNzMvMUJkVFR3NWord2R2YUZSUkRVMVJpQTMyWHVUVmlYYjhUSk5uU0FhSVIvS0FBPT0K",
+            "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
+        }
+    }
 }
