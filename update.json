@@ -1,10 +1,10 @@
 {
     "version": "0.1.9",
-    "notes": "Version 0.1.9 content patch: archived 19 overlapping or off-scope exercises into the disabled list and filtered them out of the active database. Retired duplicates such as Detailed Armor Construction and Protective Gear & Armour, plus creature, facial, age, semiotics, fragmentation, scientific illustration, Bargue, and future idea notes, so the active curriculum stays focused. Exercise IDs remain stable, so saved progress is unaffected.",
-    "pub_date": "2026-10-21T00:12:53Z",
+    "notes": "Version 0.1.9 patch: reworked Facial Features Construction into clear feature-by-feature steps, refined the eye, nose, mouth, and ear guidance, added non-destructive exercise ordering with stable-ID badges, and archived additional overlapping exercises.",
+    "pub_date": "2026-10-21T05:20:03Z",
     "platforms": {
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnUwN0FiNGQ5RHlBc1QzUVMzQmZYL2F0a0c4dm9iQ3JTM29SbVhSY0lzL3RUaTJ3YXRobXI0NUVGZk8zQk9SeTY0YmRwNDZBajV6VjlPVTI1VHBJMVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQxNTUxCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCmVmTFJlTnhoQ05EQlJqOXB3aWRzQjQ1L3RnMzlHaHB4WlRzUHpXNzMvMUJkVFR3NWord2R2YUZSUkRVMVJpQTMyWHVUVmlYYjhUSk5uU0FhSVIvS0FBPT0K",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUmpmYWl5QmJ4RnJ3ay9LWm1GRGU3dEdYMUFySU1MbHhOZ0hGR20zVy9kQUdTWjF4OXJoSE9aTE5PZHQ3dlVUMFhEMHNNU2RhY2prNjRjNVNLNHhzcU1tU3lyZjJQbVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU5OTgzCWZpbGU6U3RhdFNrZXRjaF8wLjEuOV94NjQtc2V0dXAuZXhlCmJDd3dXQlJMMFMvNHl1Q01zNy9pUXVYdTFPSkVDajdTZXZUbFpGb1BTYjI3VXl3Y01qK2FDMlVXeVkvR05SODhMREZtMUZOZzNpZjRTcUVXSThSWUNRPT0K",
             "url": "https://github.com/1rfan11/StatSketch/releases/download/v0.1.9/StatSketch_0.1.9_x64-setup.exe"
         }
     }
